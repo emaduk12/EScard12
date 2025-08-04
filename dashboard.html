@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>EScard Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>EScard</h1>
+
+    <div class="card-info">
+      <p><strong>Name:</strong> <span id="userName"></span></p>
+      <p><strong>Card Number:</strong> <span id="cardNumber"></span></p>
+      <p><strong>Expiry:</strong> <span id="expire"></span></p>
+      <p><strong>Balance:</strong> $<span id="balance"></span></p>
+      <p><strong>PIN:</strong> <span id="pin"></span></p>
+      <div>
+        <img id="photo" alt="User Photo" />
+        <img id="qrcode" alt="User QR Code" />
+      </div>
+    </div>
+
+    <button id="logoutBtn">چوونا ژدەرڤە</button>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

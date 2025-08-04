@@ -1,0 +1,71 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: rgba(0,0,0,0.4);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #000;
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  background-color: #00c9a7;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00a98f;
+}
+
+.card-info {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.card-info img {
+  width: 100px;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.forgot {
+  background: transparent;
+  color: #ccc;
+  font-size: 14px;
+  margin-top: 5px;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#forgotMessage {
+  color: #ffaaaa;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.hidden {
+  display: none;
+}
