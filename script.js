@@ -31,7 +31,7 @@ const users = [
     cardNumber: "5555666677778888",
     pin: "4326",
     expire: "10/05",
-    balance: 1280.50,
+    balance: 0.10,
     photo: "https://i.pravatar.cc/100?img=2",
     qrcode: "https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=kurdistan"
   }
